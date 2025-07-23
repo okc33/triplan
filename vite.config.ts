@@ -7,7 +7,6 @@ import { componentTagger } from "lovable-tagger";
 const basePath = '/wander-planner-dash/';
 
 export default defineConfig(({ mode }) => ({
-  base: basePath, // ← ここに追加！（return オブジェクトの中）
   server: {
     host: "::",
     port: 8080,
