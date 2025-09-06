@@ -56,19 +56,19 @@ const travelPlans: Record<string, TravelPlan> = {
       { name: 'グトルフォスの滝', lat: 64.3275, lng: -20.1218 },
       { name: 'シンクヴェトリル国立公園', lat: 64.2559, lng: -21.1299 }
     ],
-    travelLinks: [
-      {
-        title: '阪急交通社 アイスランドツアー',
-        url: 'https://www.hankyu-travel.com',
-        image: '/assets/hankyu-iceland.svg'
-      },
-      {
-        title: 'JTB アイスランド旅行',
-        url: 'https://www.jtb.co.jp',
-        image: '/assets/jtb-iceland.svg'
-      }
-    ],
-    markdown: `## 🌟 アイスランド基本情報
+      travelLinks: [
+        {
+          title: '阪急交通社 アイスランドツアー',
+          url: 'https://www.hankyu-travel.com',
+          image: '/assets/hankyu-iceland.svg'
+        },
+        {
+          title: 'JTB アイスランド旅行',
+          url: 'https://www.jtb.co.jp',
+          image: '/assets/jtb-iceland.svg'
+        }
+      ],
+      markdown: `## 🌟 アイスランド基本情報
 
 ### 🗓️ ベストシーズン
 
@@ -80,8 +80,31 @@ const travelPlans: Record<string, TravelPlan> = {
 
 ### 🛡️ 注意事項
 
-* 冬季は道路凍結に注意`
-  },
+* 冬季は道路凍結に注意`,
+      itinerary: [
+        {
+          day: 1,
+          title: 'レイキャビク到着・ブルーラグーン',
+          morning: 'レイキャビク到着',
+          afternoon: 'ブルーラグーンでリラックス',
+          evening: 'レイキャビク市内で夕食'
+        },
+        {
+          day: 2,
+          title: 'ゴールデンサークル観光',
+          morning: 'シンクヴェトリル国立公園を散策',
+          afternoon: 'ゲイシールとグトルフォス観光',
+          evening: 'オーロラ鑑賞'
+        },
+        {
+          day: 3,
+          title: '南海岸ドライブ',
+          morning: 'セリャラントスフォス観光',
+          afternoon: 'レイニスフィヤラを散策',
+          evening: 'レイキャビクへ戻る'
+        }
+      ]
+    },
   spain: {
     name: 'スペイン（アンダルシア）',
     country: '🇪🇸 スペイン',
@@ -93,19 +116,19 @@ const travelPlans: Record<string, TravelPlan> = {
       { name: 'メスキータ', lat: 37.8789, lng: -4.7794 },
       { name: 'アルハンブラ宮殿', lat: 37.1761, lng: -3.5881 }
     ],
-    travelLinks: [
-      {
-        title: '阪急交通社 アンダルシアツアー',
-        url: 'https://www.hankyu-travel.com',
-        image: '/assets/hankyu-spain.svg'
-      },
-      {
-        title: 'JTB スペイン旅行',
-        url: 'https://www.jtb.co.jp',
-        image: '/assets/jtb-spain.svg'
-      }
-    ],
-    markdown: `## 🌟 アンダルシア基本情報
+      travelLinks: [
+        {
+          title: '阪急交通社 アンダルシアツアー',
+          url: 'https://www.hankyu-travel.com',
+          image: '/assets/hankyu-spain.svg'
+        },
+        {
+          title: 'JTB スペイン旅行',
+          url: 'https://www.jtb.co.jp',
+          image: '/assets/jtb-spain.svg'
+        }
+      ],
+      markdown: `## 🌟 アンダルシア基本情報
 
 ### 🗓️ ベストシーズン
 
@@ -117,8 +140,31 @@ const travelPlans: Record<string, TravelPlan> = {
 
 ### 🛡️ 注意事項
 
-* 夏は高温に注意`
-  },
+* 夏は高温に注意`,
+      itinerary: [
+        {
+          day: 1,
+          title: 'セビリア到着・市内観光',
+          morning: 'セビリア到着後、大聖堂を見学',
+          afternoon: 'ヒラルダの塔と市内散策',
+          evening: 'フラメンコショー鑑賞'
+        },
+        {
+          day: 2,
+          title: 'コルドバ日帰り',
+          morning: '列車でコルドバへ移動',
+          afternoon: 'メスキータを見学',
+          evening: 'セビリアに戻りタパスを楽しむ'
+        },
+        {
+          day: 3,
+          title: 'ロンダとグラナダ',
+          morning: 'ロンダでヌエボ橋を観光',
+          afternoon: 'グラナダでアルハンブラ宮殿見学',
+          evening: 'グラナダで夕食'
+        }
+      ]
+    },
   hokkaido: {
     name: '北海道（フリー切符旅）',
     country: '🇯🇵 日本',
@@ -130,19 +176,19 @@ const travelPlans: Record<string, TravelPlan> = {
       { name: '厚岸', lat: 43.0476, lng: 144.851 },
       { name: '釧路湿原', lat: 43.1913, lng: 144.1743 }
     ],
-    travelLinks: [
-      {
-        title: '阪急交通社 北海道ツアー',
-        url: 'https://www.hankyu-travel.com',
-        image: '/assets/hankyu-hokkaido.svg'
-      },
-      {
-        title: 'JTB 北海道旅行',
-        url: 'https://www.jtb.co.jp',
-        image: '/assets/jtb-hokkaido.svg'
-      }
-    ],
-    markdown: `## 🌟 北海道基本情報
+      travelLinks: [
+        {
+          title: '阪急交通社 北海道ツアー',
+          url: 'https://www.hankyu-travel.com',
+          image: '/assets/hankyu-hokkaido.svg'
+        },
+        {
+          title: 'JTB 北海道旅行',
+          url: 'https://www.jtb.co.jp',
+          image: '/assets/jtb-hokkaido.svg'
+        }
+      ],
+      markdown: `## 🌟 北海道基本情報
 
 ### 🗓️ ベストシーズン
 
@@ -154,8 +200,31 @@ const travelPlans: Record<string, TravelPlan> = {
 
 ### 🛡️ 注意事項
 
-* 防寒対策を万全に`
-  },
+* 防寒対策を万全に`,
+      itinerary: [
+        {
+          day: 1,
+          title: '札幌→釧路・SL冬の湿原号',
+          morning: '札幌から釧路へ移動',
+          afternoon: 'SL冬の湿原号乗車',
+          evening: '釧路で宿泊'
+        },
+        {
+          day: 2,
+          title: '厚岸観光',
+          morning: '厚岸の牡蠣小屋を訪問',
+          afternoon: '町歩きと観光',
+          evening: '温泉でリラックス'
+        },
+        {
+          day: 3,
+          title: '釧路湿原散策と札幌帰着',
+          morning: '釧路湿原を散策',
+          afternoon: '札幌へ移動',
+          evening: '札幌帰着'
+        }
+      ]
+    },
   yakushima: {
     name: '屋久島',
     country: '🇯🇵 日本',
@@ -167,19 +236,19 @@ const travelPlans: Record<string, TravelPlan> = {
       { name: '白谷雲水峡', lat: 30.394, lng: 130.57 },
       { name: '千尋の滝', lat: 30.2867, lng: 130.6292 }
     ],
-    travelLinks: [
-      {
-        title: '阪急交通社 屋久島ツアー',
-        url: 'https://www.hankyu-travel.com',
-        image: '/assets/hankyu-yakushima.svg'
-      },
-      {
-        title: 'JTB 屋久島旅行',
-        url: 'https://www.jtb.co.jp',
-        image: '/assets/jtb-yakushima.svg'
-      }
-    ],
-    markdown: `## 🌟 屋久島基本情報
+      travelLinks: [
+        {
+          title: '阪急交通社 屋久島ツアー',
+          url: 'https://www.hankyu-travel.com',
+          image: '/assets/hankyu-yakushima.svg'
+        },
+        {
+          title: 'JTB 屋久島旅行',
+          url: 'https://www.jtb.co.jp',
+          image: '/assets/jtb-yakushima.svg'
+        }
+      ],
+      markdown: `## 🌟 屋久島基本情報
 
 ### 🗓️ ベストシーズン
 
@@ -191,9 +260,32 @@ const travelPlans: Record<string, TravelPlan> = {
 
 ### 🛡️ 注意事項
 
-* 山間部は天候変化が激しい`
-  }
-};
+* 山間部は天候変化が激しい`,
+      itinerary: [
+        {
+          day: 1,
+          title: '屋久島到着・白谷雲水峡',
+          morning: '屋久島到着',
+          afternoon: '白谷雲水峡トレッキング',
+          evening: '宿で夕食'
+        },
+        {
+          day: 2,
+          title: '縄文杉トレッキング',
+          morning: '縄文杉トレッキング出発',
+          afternoon: '縄文杉を見学',
+          evening: '下山後宿で休息'
+        },
+        {
+          day: 3,
+          title: '千尋の滝観光と帰路',
+          morning: '千尋の滝を観光',
+          afternoon: '島内でお土産探し',
+          evening: '帰路につく'
+        }
+      ]
+    }
+  };
 
 const PlanDetail = () => {
   const { planId } = useParams<{ planId: string }>();
