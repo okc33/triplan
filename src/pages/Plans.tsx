@@ -59,13 +59,13 @@ const travelPlans: Record<string, TravelPlan> = {
       travelLinks: [
         {
           title: '阪急交通社 アイスランドツアー',
-          url: 'https://www.hankyu-travel.com',
-          image: '/assets/hankyu-iceland.svg'
+          url: 'https://www.hankyu-travel.com/summary/iceland/',
+          image: '/assets/hankyu.svg'
         },
         {
           title: 'JTB アイスランド旅行',
-          url: 'https://www.jtb.co.jp',
-          image: '/assets/jtb-iceland.svg'
+          url: 'https://www.jtb.co.jp/kaigai_guide/europe/iceland/',
+          image: '/assets/jtb.svg'
         }
       ],
       markdown: `## 🌟 アイスランド基本情報
@@ -119,13 +119,13 @@ const travelPlans: Record<string, TravelPlan> = {
       travelLinks: [
         {
           title: '阪急交通社 アンダルシアツアー',
-          url: 'https://www.hankyu-travel.com',
-          image: '/assets/hankyu-spain.svg'
+          url: 'https://www.hankyu-travel.com/summary/spain/',
+          image: '/assets/hankyu.svg'
         },
         {
           title: 'JTB スペイン旅行',
-          url: 'https://www.jtb.co.jp',
-          image: '/assets/jtb-spain.svg'
+          url: 'https://www.jtb.co.jp/kaigai_guide/europe/spain/',
+          image: '/assets/jtb.svg'
         }
       ],
       markdown: `## 🌟 アンダルシア基本情報
@@ -179,13 +179,13 @@ const travelPlans: Record<string, TravelPlan> = {
       travelLinks: [
         {
           title: '阪急交通社 北海道ツアー',
-          url: 'https://www.hankyu-travel.com',
-          image: '/assets/hankyu-hokkaido.svg'
+          url: 'https://www.hankyu-travel.com/summary/hokkaido/',
+          image: '/assets/hankyu.svg'
         },
         {
           title: 'JTB 北海道旅行',
-          url: 'https://www.jtb.co.jp',
-          image: '/assets/jtb-hokkaido.svg'
+          url: 'https://www.jtb.co.jp/kokunai_guide/hokkaido/',
+          image: '/assets/jtb.svg'
         }
       ],
       markdown: `## 🌟 北海道基本情報
@@ -239,13 +239,13 @@ const travelPlans: Record<string, TravelPlan> = {
       travelLinks: [
         {
           title: '阪急交通社 屋久島ツアー',
-          url: 'https://www.hankyu-travel.com',
-          image: '/assets/hankyu-yakushima.svg'
+          url: 'https://www.hankyu-travel.com/summary/yakushima/',
+          image: '/assets/hankyu.svg'
         },
         {
           title: 'JTB 屋久島旅行',
-          url: 'https://www.jtb.co.jp',
-          image: '/assets/jtb-yakushima.svg'
+          url: 'https://www.jtb.co.jp/kokunai_guide/kagoshima/yakushima/',
+          image: '/assets/jtb.svg'
         }
       ],
       markdown: `## 🌟 屋久島基本情報
